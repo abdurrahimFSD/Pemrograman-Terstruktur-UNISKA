@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int main () {
@@ -59,6 +60,7 @@ int main () {
 		cout << "Lanjut lagi (Y / T) : ";
 		cin >> ulang;
 		cout << endl;
+		system("cls");
 		
 		cout << "Terima Kasih Menggunakan ATM UNISKA" << endl;
 		
